@@ -1,0 +1,2330 @@
+/* Fuentes */
+@font-face {
+    font-family: '../fonts/TitilliumText25L800wt';
+    src: url('../fonts/TitilliumText25L001-webfont.eot');
+    src: url('../fonts/TitilliumText25L001-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L001-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L001-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L001-webfont.svg#TitilliumText25L800wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/TitilliumText25L600wt';
+    src: url('../fonts/TitilliumText25L002-webfont.eot');
+    src: url('../fonts/TitilliumText25L002-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L002-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L002-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L002-webfont.svg#TitilliumText25L600wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/TitilliumText25L400wt';
+    src: url('../fonts/TitilliumText25L003-webfont.eot');
+    src: url('../fonts/TitilliumText25L003-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L003-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L003-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L003-webfont.svg#TitilliumText25L400wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/TitilliumText25L250wt';
+    src: url('../fonts/TitilliumText25L004-webfont.eot');
+    src: url('../fonts/TitilliumText25L004-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L004-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L004-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L004-webfont.svg#TitilliumText25L250wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/TitilliumText25L1wt';
+    src: url('../fonts/TitilliumText25L005-webfont.eot');
+    src: url('../fonts/TitilliumText25L005-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L005-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L005-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L005-webfont.svg#TitilliumText25L1wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/TitilliumText25L998wt';
+    src: url('../fonts/TitilliumText25L-webfont.eot');
+    src: url('../fonts/TitilliumText25L-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L-webfont.svg#TitilliumText25L998wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+.container-fluid { height: 100%; }
+
+#seccion_uno { width: 100%; height: 100%; }
+#seccion_dos { width: 100%; height: 100%; }
+#seccion_tres { width: 100%; height: 100%; }
+#seccion_cuatro { width: 100%; height: 100%; }
+#seccion_seis { width: 100%; height: 100%; }
+#seccion_uno .container-fluid, .row-fluid { height: 100%; }
+#seccion_dos .container-fluid, .row-fluid { height: 100%; }
+#seccion_tres .container-fluid, .row-fluid { height: 100%; }
+#seccion_cuatro .container-fluid, .row-fluid { height: 100%; }
+#seccion_seis .container-fluid, .row-fluid { height: 100%; }
+
+/* logo */
+.logo-insaciables-labs-dos a {
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+}
+
+.red-text {
+color: #c6242c;
+}
+
+#seccion_uno .logo-insaciables-labs-dos {
+width: 145px;
+height: 173px;
+padding: 0;
+background-image: url(../img/logo-insaciables-labs.png);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 147;
+margin: 0 auto;
+text-transform: uppercase;
+}
+
+#seccion_uno .logo-insaciables-labs-dos a {
+padding-top: 175px;
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+display: block;
+height: 140px;
+background-image: url(../img/bg-red-text.png);
+background-repeat: no-repeat;
+background-position: center 218px;
+}
+h2.tit { display: none; }
+h3.tit { width: 100%; padding: 10px 0; background: #c6242c; text-align: center; font-size: 20px; top: 31px; line-height: 26px; font-weight: 200; position: absolute; }
+
+h2 { text-transform: uppercase; text-align: center; font-size: 30px; margin: 10px 0; line-height: 26px; }
+#seccion_cuatro .como h2.tit_dos { text-transform: uppercase; text-align: center; font-size: 30px; margin: 10px 0; line-height: 26px; }
+h3 { text-align: center; font-size: 20px; font-weight: normal; line-height: 24px; }
+
+#seccion_cuatro .como h2 {
+margin-top: 33px;
+text-transform: uppercase;
+text-align: center;
+font-size: 18px;
+font-weight: 100;
+line-height: 16px;
+}
+
+/* seccion_uno */
+#seccion_uno .llamado h2 {
+padding-bottom: 20px;
+text-align: center;
+font-size: 53px;
+margin: 92px auto 20px;
+line-height: 66px;
+font-weight: 100;
+border-bottom: 2px dotted #444;
+}
+
+#seccion_uno .llamado h3 {
+line-height: 34px;
+font-weight: 100;
+text-align: center;
+font-size: 18px;
+margin: 0;
+letter-spacing: 0px;
+padding: 0 10px;
+font-style: normal;
+}
+
+#seccion_uno .ver-mas {
+width: 50px;
+height: 50px;
+text-align: center;
+margin: 20px auto;
+color: #000;
+background-color: #c6242c;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 2px 0px 2px 0px #000;
+box-shadow: 2px 0px 2px 0px #000;
+-webkit-transform: rotate(91.5deg);
+-moz-transform: rotate(91.5deg);
+-ms-transform: rotate(91.5deg);
+-o-transform: rotate(91.5deg);
+transform: rotate(91.5deg);
+display: block;
+}
+
+#seccion_uno .ver-mas a {
+padding: 4px 10px 10px 15px;
+font-weight: 100;
+line-height: 40px;
+font-size: 40px;
+color: #fff;
+text-decoration: none;
+display: block;
+margin: 0 auto;
+}
+
+
+/*team*/
+#seccion_dos .team { padding-top: 87px; }
+
+#seccion_dos .ch-item {
+width: 100%;
+height: 100%;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+position: relative;
+cursor: default;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#seccion_dos .ch-info-wrap, 
+.ch-info{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;  
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+#seccion_dos .ch-info-wrap {
+  top: 20px;
+  left: 20px;
+  background: #000 url(../images/bg.jpg);
+  box-shadow: 
+    0 0 0 20px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(115,114, 23, 0.8);
+  
+}
+
+#seccion_dos .ch-info {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+}
+
+#seccion_dos .ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+
+
+}
+
+#seccion_dos .ch-info .ch-info-front {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  
+  z-index: 100;
+  box-shadow: 
+    inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+
+#seccion_dos .ch-info .ch-info-back {
+  background: rgba(230,132,107,0);
+}
+#seccion_dos .ch-img-1 { 
+  background-image: url(../img/carlos_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-2 { 
+  background-image: url(../img/tomas_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-3 { 
+  background-image: url(../img/sebastian_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-4 { 
+  background-image: url(../img/jaime_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-5 { 
+  background-image: url(../img/adriano_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-info h3 {
+line-height: 14px;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-size: 14px;
+margin: 0;
+padding: 0;
+height: 12px;
+}
+
+#seccion_dos .ch-img-1 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-2 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-3 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-4 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-5 h3 { 
+padding: 50px 0 0 0; 
+}
+
+#seccion_dos .ch-info p {
+letter-spacing: 1px;
+font-weight: 400;
+color: #fff;
+padding: 10px 5px;
+font-style: italic;
+margin: 0 10px;
+font-size: 13px;
+}
+
+#seccion_dos .ch-info p a {
+  display: block;
+  color: #c6242c;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+#seccion_dos .ch-info p a:hover {
+  color: #c6242c;
+}
+
+#seccion_dos .ch-item:hover .ch-info-front {
+  -webkit-transform: rotate3d(1,0,0,-180deg);
+  -moz-transform: rotate3d(1,0,0,-180deg);
+  -o-transform: rotate3d(1,0,0,-180deg);
+  -ms-transform: rotate3d(1,0,0,-180deg);
+  transform: rotate3d(1,0,0,-180deg);
+  
+  box-shadow: 
+    inset 0 0 5px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+#seccion_dos .ch-item:hover .ch-info-back {
+  background: rgba(0,0,0,0.9);
+
+    -webkit-transform: rotate(-45.0deg);  /* Safari 3.1+, Chrome */
+     -moz-transform: rotate(-45.0deg);  /* Firefox 3.5-15 */
+      -ms-transform: rotate(-45.0deg);  /* IE9+ */
+       -o-transform: rotate(-45.0deg);  /* Opera 10.5-12.00 */
+          transform: rotate(-45.0deg);  /* Firefox 16+, Opera 12.50+ */
+}
+
+#seccion_dos .ch-item .ch-info-back {
+  background: rgba(0,0,0,0.9);
+}
+
+#seccion_dos .ch-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#seccion_dos .ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+#seccion_dos .ch-grid:after {
+  clear: both;
+}
+
+#seccion_dos .ch-grid li {
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin: 20px;
+}
+
+#seccion_dos .ch-grid li { margin-right: 67px; }
+
+#seccion_tres .nav-tabs { margin-top: 87px; border-bottom: 1px solid transparent; background-color: #000; }
+
+#seccion_tres .bg_smart {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/bg_uno.jpg);
+}
+
+#seccion_tres .smarth {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/smartphones.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1280px;
+}
+
+#seccion_tres .bg_smart_dos {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/bg_dos.jpg);
+}
+
+#seccion_tres .smarth-dos {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/responsive.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1280px;
+}
+
+#seccion_cuatro .nav-tabs {
+margin-top: 87px;
+border-bottom: 1px solid transparent;
+background-color: #000;
+}
+
+#seccion_cuatro .como .item.uno {
+margin-top: 33px;   
+background-image: url(../img/icon-ios.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/*#seccion_seis .redes {
+height: 62px;
+width: 694px;
+margin: 0 auto;
+}
+
+
+#seccion_seis .redes li {
+text-align: center;
+float: left;
+width: 50px;
+height: 60px;
+margin: 0 29px;
+line-height: 48px;
+display: block;
+}
+*/
+
+#seccion_seis ul { margin: 0; }
+
+#seccion_seis .redes li a {
+/*width: 50px;
+height: 60px;*/
+cursor: pointer;
+text-indent: -6666px;
+display: block;
+height: 52px;
+}
+
+
+#seccion_seis .redes li.github {
+background-image: url(../img/github-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.facebook {
+background-image: url(../img/facebook-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.twitter {
+background-image: url(../img/twitter-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.instagram {
+background-image: url(../img/instagram-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.tumblr {
+background-image: url(../img/tumblr-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.pinterest {
+background-image: url(../img/pinterest-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
+
+html, body { background: black; }
+
+
+.menu_principal.navbar .nav > li > a:hover {
+background-color: #000;
+border-top: 2px solid #c6242c;
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0;
+}
+
+
+.menu_principal.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+background-color: #000;
+border-top: 2px solid #c6242c;
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0;
+}
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+.container-fluid { height: 100%; }
+
+#seccion_uno { width: 100%; height: 100%; }
+#seccion_dos { width: 100%; height: 100%; }
+#seccion_tres { width: 100%; height: 100%; }
+#seccion_cuatro { width: 100%; height: auto; }
+#seccion_seis { width: 100%; height: 100%; }
+#seccion_uno .container-fluid, .row-fluid { height: 100%; }
+#seccion_dos .container-fluid, .row-fluid { height: 100%; }
+#seccion_tres .container-fluid, .row-fluid { height: 100%; }
+#seccion_cuatro .container-fluid, .row-fluid { height: 100%; }
+#seccion_seis .container-fluid, .row-fluid { height: 100%; }
+
+/* logo */
+.logo-insaciables-labs-dos a {
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+}
+
+.red-text {
+color: #c6242c;
+}
+
+#seccion_uno .logo-insaciables-labs-dos {
+width: 145px;
+height: 173px;
+padding: 0;
+background-image: url(../img/logo-insaciables-labs.png);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 147;
+margin: 0 auto;
+text-transform: uppercase;
+}
+
+#seccion_uno .logo-insaciables-labs-dos a {
+padding-top: 175px;
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+display: block;
+height: 140px;
+background-image: url(../img/bg-red-text.png);
+background-repeat: no-repeat;
+background-position: center 218px;
+}
+
+h2.tit { display: none; }
+h3.tit { width: 100%; padding: 10px 0; background: #c6242c; text-align: center; font-size: 20px; top: 31px; line-height: 26px; font-weight: 200; position: absolute; }
+
+#seccion_cuatro .como h2.tit_dos {
+text-transform: uppercase;
+text-align: center;
+font-size: 30px;
+margin: 10px 0;
+line-height: 26px;
+}
+
+h2 { text-transform: uppercase; text-align: center; font-size: 30px; margin: 10px 0; line-height: 26px; }
+
+h3 {
+text-align: center;
+font-size: 20px;
+font-weight: normal;
+line-height: 24px;
+}
+
+#seccion_cuatro .como h2 {
+margin-top: 33px;
+text-transform: uppercase;
+text-align: center;
+font-size: 18px;
+font-weight: 100;
+line-height: 16px;
+}
+
+/* seccion_uno */
+#seccion_uno .llamado h2 {
+padding-bottom: 20px;
+text-align: center;
+font-size: 40px;
+margin: 92px auto 20px;
+line-height: 39px;
+font-weight: 100;
+border-bottom: 2px dotted #444;
+}
+
+#seccion_uno .llamado h3 {
+line-height: 22px;
+font-weight: 100;
+text-align: center;
+font-size: 18px;
+margin: 0;
+letter-spacing: 0px;
+padding: 0 10px;
+font-style: normal;
+}
+
+#seccion_uno .ver-mas {
+width: 50px;
+height: 50px;
+text-align: center;
+margin: 20px auto;
+color: #000;
+background-color: #c6242c;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 2px 0px 2px 0px #000;
+box-shadow: 2px 0px 2px 0px #000;
+-webkit-transform: rotate(91.5deg);
+-moz-transform: rotate(91.5deg);
+-ms-transform: rotate(91.5deg);
+-o-transform: rotate(91.5deg);
+transform: rotate(91.5deg);
+display: block;
+}
+
+#seccion_uno .ver-mas a {
+padding: 4px 10px 10px 15px;
+font-weight: 100;
+line-height: 40px;
+font-size: 40px;
+color: #fff;
+text-decoration: none;
+display: block;
+margin: 0 auto;
+}
+
+
+/*team*/
+#seccion_dos .team { padding-top: 87px; }
+
+#seccion_dos .ch-item {
+width: 100%;
+height: 100%;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+position: relative;
+cursor: default;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#seccion_dos .ch-info-wrap, 
+.ch-info{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;  
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+#seccion_dos .ch-info-wrap {
+  top: 20px;
+  left: 20px;
+  background: #000 url(../images/bg.jpg);
+  box-shadow: 
+    0 0 0 20px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(115,114, 23, 0.8);
+  
+}
+
+#seccion_dos .ch-info {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+}
+
+#seccion_dos .ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+
+
+}
+
+#seccion_dos .ch-info .ch-info-front {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  
+  z-index: 100;
+  box-shadow: 
+    inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+
+#seccion_dos .ch-info .ch-info-back {
+  background: rgba(230,132,107,0);
+}
+#seccion_dos .ch-img-1 { 
+  background-image: url(../img/carlos_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-2 { 
+  background-image: url(../img/tomas_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-3 { 
+  background-image: url(../img/sebastian_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-4 { 
+  background-image: url(../img/jaime_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-5 { 
+  background-image: url(../img/adriano_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-info h3 {
+line-height: 14px;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-size: 14px;
+margin: 0;
+padding: 0;
+height: 12px;
+}
+
+#seccion_dos .ch-img-1 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-2 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-3 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-4 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-5 h3 { 
+padding: 50px 0 0 0; 
+}
+
+#seccion_dos .ch-info p {
+letter-spacing: 1px;
+font-weight: 400;
+color: #fff;
+padding: 10px 5px;
+font-style: italic;
+margin: 0 10px;
+font-size: 13px;
+}
+
+#seccion_dos .ch-info p a {
+  display: block;
+  color: #c6242c;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+#seccion_dos .ch-info p a:hover {
+  color: #c6242c;
+}
+
+#seccion_dos .ch-item:hover .ch-info-front {
+  -webkit-transform: rotate3d(1,0,0,-180deg);
+  -moz-transform: rotate3d(1,0,0,-180deg);
+  -o-transform: rotate3d(1,0,0,-180deg);
+  -ms-transform: rotate3d(1,0,0,-180deg);
+  transform: rotate3d(1,0,0,-180deg);
+  
+  box-shadow: 
+    inset 0 0 5px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+#seccion_dos .ch-item:hover .ch-info-back {
+  background: rgba(0,0,0,0.9);
+
+    -webkit-transform: rotate(-45.0deg);  /* Safari 3.1+, Chrome */
+     -moz-transform: rotate(-45.0deg);  /* Firefox 3.5-15 */
+      -ms-transform: rotate(-45.0deg);  /* IE9+ */
+       -o-transform: rotate(-45.0deg);  /* Opera 10.5-12.00 */
+          transform: rotate(-45.0deg);  /* Firefox 16+, Opera 12.50+ */
+}
+
+#seccion_dos .ch-item .ch-info-back {
+  background: rgba(0,0,0,0.9);
+}
+
+#seccion_dos .ch-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#seccion_dos .ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+#seccion_dos .ch-grid:after {
+  clear: both;
+}
+
+#seccion_dos .ch-grid li {
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin: 20px;
+}
+
+#seccion_dos .ch-grid li { margin-right: 67px; }
+
+#seccion_tres .nav-tabs { margin-top: 87px; border-bottom: 1px solid transparent; background-color: #000; }
+
+#seccion_tres .bg_smart {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/bg_uno.jpg);
+}
+
+#seccion_tres .smarth {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/smartphones.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1280px;
+}
+
+#seccion_tres .bg_smart_dos {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/bg_dos.jpg);
+}
+
+#seccion_tres .smarth-dos {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/responsive.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1280px;
+}
+
+#seccion_cuatro .nav-tabs {
+margin-top: 87px;
+border-bottom: 1px solid transparent;
+background-color: #000;
+}
+
+
+#seccion_cuatro .como .item.uno {
+margin-top: 33px;   
+background-image: url(../img/icon-ios.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/*#seccion_seis .redes {
+height: 62px;
+width: 694px;
+margin: 0 auto;
+}
+
+
+#seccion_seis .redes li {
+text-align: center;
+float: left;
+width: 50px;
+height: 60px;
+margin: 0 29px;
+line-height: 48px;
+display: block;
+}
+*/
+
+#seccion_seis ul { margin: 0; }
+
+
+#seccion_seis .redes li a {
+/*width: 50px;
+height: 60px;*/
+cursor: pointer;
+text-indent: -6666px;
+display: block;
+height: 52px;
+}
+
+
+#seccion_seis .redes li.github {
+background-image: url(../img/github-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.facebook {
+background-image: url(../img/facebook-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.twitter {
+background-image: url(../img/twitter-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.instagram {
+background-image: url(../img/instagram-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.tumblr {
+background-image: url(../img/tumblr-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.pinterest {
+background-image: url(../img/pinterest-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
+
+html, body { background: red; }
+
+.menu_principal.navbar .nav > li > a:hover {
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+
+.menu_principal.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+background-color: #c6242c;
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+.container-fluid { height: 100%; }
+
+#seccion_uno { width: 100%; height: 100%; }
+#seccion_dos { width: 100%; height: auto; }
+#seccion_tres { width: 100%; height: 100%; }
+#seccion_cuatro { width: 100%; height: auto; }
+#seccion_seis { width: 100%; height: 100%; }
+#seccion_uno .container-fluid, .row-fluid { height: 100%; }
+#seccion_dos .container-fluid, .row-fluid { height: 100%; }
+#seccion_tres .container-fluid, .row-fluid { height: 100%; }
+#seccion_cuatro .container-fluid, .row-fluid { height: 100%; }
+#seccion_seis .container-fluid, .row-fluid { height: 100%; }
+
+/* logo */
+.logo-insaciables-labs-dos a {
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+}
+
+.red-text {
+color: #c6242c;
+}
+
+#seccion_uno .logo-insaciables-labs-dos {
+width: 145px;
+height: 173px;
+padding: 0;
+background-image: url(../img/logo-insaciables-labs.png);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 147;
+margin: 0 auto;
+text-transform: uppercase;
+}
+
+#seccion_uno .logo-insaciables-labs-dos a {
+padding-top: 175px;
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+display: block;
+height: 140px;
+background-image: url(../img/bg-red-text.png);
+background-repeat: no-repeat;
+background-position: center 218px;
+}
+
+h2.tit { display: none; }
+h3.tit { width: 100%; padding: 10px 0; background: #c6242c; text-align: center; font-size: 20px; top: 31px; line-height: 26px; font-weight: 200; position: absolute; }
+
+/*h2 { text-transform: uppercase; text-align: center; font-size: 30px; margin: 20px 0; line-height: 26px; }*/
+h2 {
+text-transform: uppercase;
+text-align: center;
+font-size: 30px;
+margin: 20px 0;
+line-height: 26px;
+}
+
+h3 { text-align: center; font-size: 20px; font-weight: normal; line-height: 24px; }
+
+#seccion_cuatro .como h2 {
+margin-top: 33px;
+text-transform: uppercase;
+text-align: center;
+font-size: 18px;
+font-weight: 100;
+line-height: 16px;
+}
+
+
+
+/* seccion_uno */
+#seccion_uno .llamado h2 {
+padding-bottom: 20px;
+text-align: center;
+font-size: 27px;
+margin: 92px auto 20px;
+line-height: 33px;
+font-weight: 100;
+border-bottom: 2px dotted #444;
+}
+
+#seccion_uno .llamado h3 {
+line-height: 24px;
+font-weight: 100;
+text-align: center;
+font-size: 18px;
+margin: 0;
+letter-spacing: 0px;
+padding: 0 10px;
+font-style: normal;
+}
+
+#seccion_uno .ver-mas {
+width: 50px;
+height: 50px;
+text-align: center;
+margin: 20px auto;
+color: #000;
+background-color: #c6242c;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 2px 0px 2px 0px #000;
+box-shadow: 2px 0px 2px 0px #000;
+-webkit-transform: rotate(91.5deg);
+-moz-transform: rotate(91.5deg);
+-ms-transform: rotate(91.5deg);
+-o-transform: rotate(91.5deg);
+transform: rotate(91.5deg);
+display: block;
+}
+
+#seccion_uno .ver-mas a {
+padding: 4px 10px 10px 15px;
+font-weight: 100;
+line-height: 40px;
+font-size: 40px;
+color: #fff;
+text-decoration: none;
+display: block;
+margin: 0 auto;
+}
+
+
+/*team*/
+#seccion_dos .team { padding-top: 87px; }
+
+#seccion_dos .ch-item {
+width: 100%;
+height: 100%;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+position: relative;
+cursor: default;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#seccion_dos .ch-info-wrap, 
+.ch-info{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;  
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+#seccion_dos .ch-info-wrap {
+  top: 20px;
+  left: 20px;
+  background: #000 url(../images/bg.jpg);
+  box-shadow: 
+    0 0 0 20px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(115,114, 23, 0.8);
+  
+}
+
+#seccion_dos .ch-info {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+}
+
+#seccion_dos .ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+
+
+}
+
+#seccion_dos .ch-info .ch-info-front {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  
+  z-index: 100;
+  box-shadow: 
+    inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+
+#seccion_dos .ch-info .ch-info-back {
+  background: rgba(230,132,107,0);
+}
+#seccion_dos .ch-img-1 { 
+  background-image: url(../img/carlos_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-2 { 
+  background-image: url(../img/tomas_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-3 { 
+  background-image: url(../img/sebastian_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-4 { 
+  background-image: url(../img/jaime_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-5 { 
+  background-image: url(../img/adriano_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-info h3 {
+line-height: 14px;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-size: 14px;
+margin: 0;
+padding: 0;
+height: 12px;
+}
+
+#seccion_dos .ch-img-1 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-2 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-3 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-4 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-5 h3 { 
+padding: 50px 0 0 0; 
+}
+
+#seccion_dos .ch-info p {
+letter-spacing: 1px;
+font-weight: 400;
+color: #fff;
+padding: 10px 5px;
+font-style: italic;
+margin: 0 10px;
+font-size: 13px;
+}
+
+#seccion_dos .ch-info p a {
+  display: block;
+  color: #c6242c;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+#seccion_dos .ch-info p a:hover {
+  color: #c6242c;
+}
+
+#seccion_dos .ch-item:hover .ch-info-front {
+  -webkit-transform: rotate3d(1,0,0,-180deg);
+  -moz-transform: rotate3d(1,0,0,-180deg);
+  -o-transform: rotate3d(1,0,0,-180deg);
+  -ms-transform: rotate3d(1,0,0,-180deg);
+  transform: rotate3d(1,0,0,-180deg);
+  
+  box-shadow: 
+    inset 0 0 5px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+#seccion_dos .ch-item:hover .ch-info-back {
+  background: rgba(0,0,0,0.9);
+
+    -webkit-transform: rotate(-45.0deg);  /* Safari 3.1+, Chrome */
+     -moz-transform: rotate(-45.0deg);  /* Firefox 3.5-15 */
+      -ms-transform: rotate(-45.0deg);  /* IE9+ */
+       -o-transform: rotate(-45.0deg);  /* Opera 10.5-12.00 */
+          transform: rotate(-45.0deg);  /* Firefox 16+, Opera 12.50+ */
+}
+
+#seccion_dos .ch-item .ch-info-back {
+  background: rgba(0,0,0,0.9);
+}
+
+#seccion_dos .ch-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#seccion_dos .ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+#seccion_dos .ch-grid:after {
+  clear: both;
+}
+
+#seccion_dos .ch-grid li {
+width: 220px;
+height: 220px;
+margin: 20px auto;
+}
+
+#seccion_tres .nav-tabs { margin-top: 87px; border-bottom: 1px solid transparent; background-color: #000; }
+
+#seccion_tres .bg_smart {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/bg_uno.jpg);
+}
+
+#seccion_tres .smarth {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/smartphones.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1280px;
+}
+
+#seccion_tres .bg_smart_dos {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: url(../img/bg_dos.jpg);
+}
+
+#seccion_tres .smarth-dos {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/responsive.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1280px;
+}
+
+#seccion_cuatro .nav-tabs {
+margin-top: 87px;
+border-bottom: 1px solid transparent;
+background-color: #000;
+}
+
+#seccion_cuatro .como .item.uno {
+margin-top: 33px;   
+background-image: url(../img/icon-ios.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/*#seccion_seis .redes {
+height: 62px;
+width: 694px;
+margin: 0 auto;
+display: none;
+}
+
+
+#seccion_seis .redes li {
+text-align: center;
+float: left;
+width: 50px;
+height: 60px;
+margin: 0 29px;
+line-height: 48px;
+display: block;
+}
+*/
+
+#seccion_seis ul { margin: 0; }
+
+
+#seccion_seis .redes li a {
+/*width: 50px;
+height: 60px;*/
+cursor: pointer;
+text-indent: -6666px;
+display: block;
+height: 52px;
+}
+
+
+
+#seccion_seis .redes li.github {
+background-image: url(../img/github-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.facebook {
+background-image: url(../img/facebook-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.twitter {
+background-image: url(../img/twitter-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.instagram {
+background-image: url(../img/instagram-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.tumblr {
+background-image: url(../img/tumblr-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.pinterest {
+background-image: url(../img/pinterest-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
+
+html, body { background: green; }
+
+
+.menu_principal.navbar .nav > li > a:hover {
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+
+.menu_principal.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+background-color: #c6242c;
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0;
+}
+
+#seccion_seis .redes ul .span2 { width: 16.66666666666667%; float: left; }
+
+
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+.container-fluid { height: 100%; }
+
+#seccion_uno { width: 100%; height: 100%; }
+#seccion_dos { width: 100%; height: 1300px; }
+#seccion_tres { width: 100%; height: 636px; }
+#seccion_cuatro { width: 100%; height: auto; }
+#seccion_seis { width: 100%; height: 100%; }
+#seccion_uno .container-fluid, .row-fluid { min-height: 100%; }
+#seccion_dos .container-fluid, .row-fluid { min-height: 100%; }
+#seccion_tres .container-fluid, .row-fluid { min-height: 100%; }
+#seccion_cuatro .container-fluid, .row-fluid { min-height: 100%; }
+#seccion_seis .container-fluid, .row-fluid { min-height: 100%; }
+
+/* logo */
+.logo-insaciables-labs-dos a {
+text-align: center;
+line-height: 29px;
+font-weight: 100;
+color: #fff;
+font-size: 25px;
+}
+
+.red-text {
+color: #c6242c;
+}
+
+#seccion_uno .logo-insaciables-labs-dos {
+width: 100px;
+height: 173px;
+padding: 0;
+background-image: url(../img/logo-insaciables-labs.png);
+background-repeat: no-repeat;
+background-position: center top;
+margin: 0 auto;
+text-transform: uppercase;
+background-size: 100px;
+}
+
+#seccion_uno .logo-insaciables-labs-dos a {
+padding-top: 125px;
+text-align: center;
+line-height: 18px;
+font-weight: 100;
+color: #fff;
+font-size: 18px;
+display: block;
+height: 140px;
+background-image: url(../img/bg-red-text.png);
+background-repeat: no-repeat;
+background-position: center 151px;
+}
+
+h2.tit { display: none; }
+h3.tit { width: 100%; padding: 10px 0; background: #c6242c; text-align: center; font-size: 18px; top: 31px; line-height: 18px; font-weight: 200; position: absolute; }
+
+h2 { text-transform: uppercase; text-align: center; font-size: 18px; margin: 0; line-height: 18px; }
+h3 { text-align: center; font-size: 15px; font-weight: normal; line-height: 18px; }
+
+/* seccion_uno */
+#seccion_uno .llamado h2 {
+padding-bottom: 10px;
+text-align: center;
+font-size: 18px;
+margin: 0 auto 10px;
+line-height: 23px;
+font-weight: 100;
+border-bottom: 2px dotted #444;
+}
+
+#seccion_uno .llamado h3 {
+text-align: center;
+line-height: 15px;
+font-weight: 100;
+font-size: 16px;
+margin: 0;
+letter-spacing: 0px;
+padding: 0 10px;
+}
+
+#seccion_uno .ver-mas {
+width: 40px;
+height: 40px;
+text-align: center;
+margin: 20px auto;
+color: #000;
+background-color: #c6242c;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+-webkit-box-shadow: 2px 0px 2px 0px #000;
+box-shadow: 2px 0px 2px 0px #000;
+-webkit-transform: rotate(91.5deg);
+-moz-transform: rotate(91.5deg);
+-ms-transform: rotate(91.5deg);
+-o-transform: rotate(91.5deg);
+transform: rotate(91.5deg);
+display: block;
+}
+
+#seccion_uno .ver-mas a {
+padding: 0 12px;
+font-weight: 100;
+line-height: 40px;
+font-size: 40px;
+color: #fff;
+text-decoration: none;
+display: block;
+margin: 0 auto;
+}
+
+
+/*team*/
+#seccion_dos .team { padding-top: 97px; }
+
+#seccion_dos .ch-item {
+width: 100%;
+height: 100%;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+position: relative;
+cursor: default;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+#seccion_dos .ch-info-wrap, 
+.ch-info{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;  
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+#seccion_dos .ch-info-wrap {
+  top: 20px;
+  left: 20px;
+  background: #000 url(../images/bg.jpg);
+  box-shadow: 
+    0 0 0 20px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(115,114, 23, 0.8);
+  
+}
+
+#seccion_dos .ch-info {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+}
+
+#seccion_dos .ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+
+
+}
+
+#seccion_dos .ch-info .ch-info-front {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  
+  z-index: 100;
+  box-shadow: 
+    inset 2px 1px 4px rgba(0,0,0,0.1);
+}
+
+#seccion_dos .ch-info .ch-info-back {
+  background: rgba(230,132,107,0);
+}
+#seccion_dos .ch-img-1 { 
+  background-image: url(../img/carlos_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-2 { 
+  background-image: url(../img/tomas_dos.jpg);
+  background-size: 320%;
+  z-index: 998;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-3 { 
+  background-image: url(../img/sebastian_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-4 { 
+  background-image: url(../img/jaime_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-img-5 { 
+  background-image: url(../img/adriano_dos.jpg);
+  background-size: 320%;
+}
+
+#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
+
+#seccion_dos .ch-info h3 {
+line-height: 14px;
+font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-size: 14px;
+margin: 0;
+padding: 0;
+height: 12px;
+}
+
+#seccion_dos .ch-img-1 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-2 h3 { 
+padding: 40px 0 0 0; 
+}
+#seccion_dos .ch-img-3 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-4 h3 { 
+padding: 50px 0 0 0; 
+}
+#seccion_dos .ch-img-5 h3 { 
+padding: 50px 0 0 0; 
+}
+
+#seccion_dos .ch-info p {
+letter-spacing: 1px;
+font-weight: 400;
+color: #fff;
+padding: 10px 5px;
+font-style: italic;
+margin: 0 10px;
+font-size: 13px;
+}
+
+#seccion_dos .ch-info p a {
+  display: block;
+  color: #c6242c;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+}
+
+#seccion_dos .ch-info p a:hover {
+  color: #c6242c;
+}
+
+#seccion_dos .ch-item:hover .ch-info-front {
+  -webkit-transform: rotate3d(1,0,0,-180deg);
+  -moz-transform: rotate3d(1,0,0,-180deg);
+  -o-transform: rotate3d(1,0,0,-180deg);
+  -ms-transform: rotate3d(1,0,0,-180deg);
+  transform: rotate3d(1,0,0,-180deg);
+  
+  box-shadow: 
+    inset 0 0 5px rgba(255,255,255,0.2), 
+    inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+#seccion_dos .ch-item:hover .ch-info-back {
+  background: rgba(0,0,0,0.9);
+
+    -webkit-transform: rotate(-45.0deg);  /* Safari 3.1+, Chrome */
+     -moz-transform: rotate(-45.0deg);  /* Firefox 3.5-15 */
+      -ms-transform: rotate(-45.0deg);  /* IE9+ */
+       -o-transform: rotate(-45.0deg);  /* Opera 10.5-12.00 */
+          transform: rotate(-45.0deg);  /* Firefox 16+, Opera 12.50+ */
+}
+
+#seccion_dos .ch-item .ch-info-back {
+  background: rgba(0,0,0,0.9);
+}
+
+#seccion_dos .ch-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+#seccion_dos .ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+#seccion_dos .ch-grid:after {
+  clear: both;
+}
+
+#seccion_dos .ch-grid li {
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin: 20px;
+}
+
+#seccion_dos .ch-grid li { margin: 20px 20px 0 20px; }
+
+#seccion_tres .nav-tabs { margin-top: 79px; border-bottom: 1px solid transparent; background-color: #000; }
+
+#seccion_tres .bg_smart {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: none;
+}
+
+#seccion_tres .smarth {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/smartphones.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 1017px;
+}
+
+#seccion_tres .bg_smart_dos {
+margin-top: 100px;
+height: 330px;
+position: relative;
+z-index: 888888;
+-webkit-background-size: 100%;
+background-size: 100%;
+background-image: none;
+}
+
+#seccion_tres .smarth-dos {
+margin-top: 60px;
+margin-bottom: 20px;
+height: 448px;
+background-image: url(../img/responsive.png);
+background-repeat: no-repeat;
+background-position: center top;
+position: relative;
+top: -460px;
+z-index: 998998;
+background-size: 520px;
+}
+
+#seccion_tres .tab-content {
+height: 486px;
+overflow: hidden;
+}
+
+#seccion_cuatro .nav-tabs {
+margin-top: 79px;
+border-bottom: 1px solid transparent;
+background-color: #000;
+}
+
+#seccion_cuatro .como .item.uno {
+margin-top: 33px;   
+background-image: url(../img/icon-ios.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/*#seccion_seis .redes {
+height: 62px;
+width: 694px;
+margin: 0 auto;
+display: none;
+}
+
+
+#seccion_seis .redes li {
+text-align: center;
+float: left;
+width: 50px;
+height: 60px;
+margin: 0 29px;
+line-height: 48px;
+display: block;
+}
+*/
+
+#seccion_seis ul { margin: 0; }
+
+
+#seccion_seis .redes li a {
+/*width: 50px;
+height: 60px;*/
+cursor: pointer;
+text-indent: -6666px;
+display: block;
+height: 52px;
+}
+
+
+
+#seccion_seis .redes li.github {
+background-image: url(../img/github-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.facebook {
+background-image: url(../img/facebook-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.twitter {
+background-image: url(../img/twitter-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.instagram {
+background-image: url(../img/instagram-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.tumblr {
+background-image: url(../img/tumblr-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis .redes li.pinterest {
+background-image: url(../img/pinterest-64.png);
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#seccion_seis #map { margin-bottom: 20px; height: 190px; padding-top: 87px; }
+#seccion_seis #map iframe { height: 200px; }
+
+html, body { background: blue; }
+
+.menu_principal.navbar .nav > li > a:hover {
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+
+.menu_principal.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+background-color: #c6242c;
+color: #fff;
+text-shadow: 1px 1px 3px #000;
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0;
+}
+
+
+#seccion_seis .redes ul .span2 { width: 16.66666666666667%; float: left; }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Generales */
+html, body { 
+margin: 0; 
+padding: 0; 
+height: 100%; 
+color: #f1f1f1;
+background-color: #000000; 
+background-image: url(../img/dark_wood.jpg); 
+background-repeat: repeat;
+font-size: 14px; 
+font-family: '../fonts/TitilliumText25L1wt';
+src: url('../fonts/TitilliumText25L005-webfont.eot');
+src: url('../fonts/TitilliumText25L005-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/TitilliumText25L005-webfont.woff') format('woff'),
+     url('../fonts/TitilliumText25L005-webfont.ttf') format('truetype'),
+     url('../fonts/TitilliumText25L005-webfont.svg#TitilliumText25L1wt') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.slide { width: 100%; height: 100%; position: relative!important; top: 0!important; }
+
+#seccion_uno .container { display: table; height: 100%; }
+
+#seccion_uno .llamado { vertical-align: middle; display: table-cell; }
+
+#seccion_dos .team { width: 100%; display: table; height: 100%; }
+
+#seccion_dos .ch-grid { vertical-align: middle; display: table-cell; }
+a, a:hover { color: #c6242c; }
+
+.no_padding { padding: 0; }
+
+#seccion_uno .logo-insaciables-labs-dos a:hover { text-decoration: none; }
+
+.nav-tabs > li > a {
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0; 
+}
+
+.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus { 
+background-color: #c6242c; 
+-webkit-border-radius: 0;
+-moz-border-radius: 0; 
+border-radius: 0;
+}
+
+.nav-tabs > li > a, .nav-pills > li > a {
+text-align: center;
+}
+
+#seccion_cuatro .como .item {
+width: 100px;
+height: 100px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+background-color: #000;
+-webkit-box-shadow: 2px 0px 2px 0px #000;
+box-shadow: 2px 0px 2px 0px #000;
+margin: 0 auto;
+}
+
+#seccion_cuatro .como .item a {
+text-indent: -6000px;
+display: block;
+}
+
+/*#seccion_cuatro .como h2.tit_dos {
+text-transform: uppercase;
+text-align: center;
+font-size: 30px;
+margin: 10px 0;
+line-height: 26px;
+}*/
+
+#seccion_cuatro .como p {
+text-align: center;
+padding-top: 0;
+}
+
+input, textarea { padding: 10px 20px; background: black; }
+#seccion_seis .direccion { padding: 20px 0; text-align: center; }
+
+.btn-centro { clear: both; width: 300px; margin: 20px auto 0; }
+
+.menu_principal {
+padding: 0;
+margin: 0;
+left: 0;
+right: 0;
+width: 100%;
+position: fixed;
+z-index: 999;
+background: #000;
+}
+
+.menu_principal.navbar .nav > li > a {
+font-weight: normal;
+float: none;
+padding: 10px 15px 10px;
+color: #888;
+text-decoration: none;
+text-shadow: 1px 1px 3px #000;
+}
+
+.logo-insaciables-labs a {
+display: block;
+text-indent: -5000px;
+height: 41px;
+}
+
+.logo-insaciables-labs {
+right: 0;
+left: 0;
+width: 35px;
+height: 41px;
+background-image: url(../img/logo-insaciables-labs.png);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 35px;
+margin: 0 auto 0;
+position: absolute;
+z-index: 99899;
+}
+
+
+.menu_principal .nav-collapse .nav { margin: 0; }
+.menu_principal .navbar .btn-navbar { padding-bottom: 14px; background: #000; }
+.menu_principal .container-fluid { padding-right: 0; padding-left: 0; }
+.navbar .btn-navbar { margin-bottom: 7px; background: #000; }
+.navbar .btn-navbar:hover, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] { background-color: #c6242c; }
+
+.accordion-inner {
+background: #000;
+padding: 20px;
+border-top: 1px solid #000;
+}
+
+footer { margin-top: 20px; text-align: center; padding: 20px 0; }
+
+
+

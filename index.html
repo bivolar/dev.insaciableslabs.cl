@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>Insaciables Labs es una Agencia de Diseño y Desarrollo Digital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Insaciables Labs es una agencia de diseño y desarrollo digital formada por jóvenes profesionales que siempre van por más y llegan a algo mejor.">
+    <meta name="author" content="Isaciables Labs">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style-il.css" rel="stylesheet">
+    <link href="css/style_parallax.css" rel="stylesheet">  
+    <link href="css/noscript.css" rel="stylesheet">
+    <link href="css/style_circle_hovers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/nbw-parallax.js"></script>
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.scrollorama.js"></script>
+    <script src="js/jquery.scrolldeck.js"></script>
+    <script defer src="jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.72835.js"></script>
+    <script type="text/javascript" src="js/jquery.circlemouse.js"></script> 
+    <script type="text/javascript">
+$(document).ready(function(){
+  
+  RepositionNav();
+  
+  $(window).resize(function(){
+    RepositionNav();
+  }); 
+  
+  $('#seccion_uno').parallax("50%", 0, 0.1, true);
+  $('#seccion_dos').parallax("50%", 0, 0.1, true);
+  $('.bg').parallax("50%", 6000, 0.4, true);
+  $('#seccion_tres').parallax("50%", 0, 0.1, true);
+
+  var deck = new $.scrolldeck({
+    slides: '.slide',
+    buttons: '#nav li a',
+    easing: 'easeInOutExpo'
+  });
+
+})
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      
+      var deck = new $.scrolldeck({
+        buttons: '.nav-button',
+        easing: 'easeInOutExpo'
+      });
+      
+      console.log(deck.controller);
+      deck.controller.animate('#instructions',{ duration: 100, property:'opacity', end: 0 });
+      
+    });
+  </script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+
+
+       <div class="menu_principal navbar navbar-fixed-top">
+          <div class="container-fluid">
+            <h1 class="logo-insaciables-labs"><a href="#seccion_uno" class="nav-button">Insaciables Labs</a></h1>    
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>            
+            <div class="nav-collapse collapse">
+              <ul class="nav pull-left">
+                <li><a href="#seccion_uno" class="nav-button">Bienvenido</a></li>
+                <li><a href="#seccion_dos" class="nav-button">Nuestro Team</a></li>
+                <li><a href="#seccion_tres" class="nav-button">Que hacemos</a></li>
+              </ul>      
+              <ul class="nav pull-right">
+                <li><a href="#seccion_cuatro" class="nav-button">Como lo Hacemos</a></li>
+              <li><a href="#seccion_seis" class="nav-button">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+  <div class="container-fluid no_padding">
+  <div class="row-fluid">
+    <div id="seccion_uno">
+      <div class="slide">
+        <div class="container">
+          <div class="llamado">
+            <h1 class="logo-insaciables-labs-dos"><a href="#seccion_uno" class="nav-button">Insaciables <span class="red-text">Labs</span></a></h1>
+            <h2>TENEMOS TODO LO QUE NECESITAS PARA CREAR UN GRAN SITIO WEB O APP</h1>
+            <h3>Insaciables Labs es una agencia de diseño y desarrollo digital formada por jóvenes profesionales que siempre van por más y llegan a algo mejor.</h2>
+            <div class="ver-mas"><a href="#seccion_dos" class="nav-button">></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="seccion_dos">
+      <div class="slide">
+
+        <h2 class="tit">Nuestro Equipo</h2>
+        <h3 class="tit">Nuestro equipo de diseño, desarrollo y contenido está esperando tu desafío.</h3>
+      <div class="clearfix"></div> 
+
+
+
+
+
+      
+
+
+
+
+
+
+      <div class="team">
+
+
+
+
+
+        <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1">        
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-1"></div>
+                  <div class="ch-info-back">
+                    <h3>Carlos Baeza</h3>
+                    <p>Diseñador Web & Developer Front End</p>
+                    <div class="links">
+                      <a href="http://drbl.in/eQva">Twitter</a>
+                      <a href="http://drbl.in/eFDk">linkedin</a>
+                    </div>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">              
+                        Ver más
+                      </a>
+                  </div>  
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </li>
+
+
+
+
+
+          <li>
+
+
+
+
+
+
+
+
+            <div class="ch-item ch-img-2">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-2"></div>
+                  <div class="ch-info-back">
+                    <h3>Tomás Barrios</h3>
+                    <p>Developer Front-End                       
+                    <div class="links">
+                      <a href="http://drbl.in/eQva">Twitter</a>
+                      <a href="http://drbl.in/eFDk">linkedin</a>
+                    </div>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">              
+                        Ver más
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+
+            <div id="collapseOne" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Conocido como Charly, cuando no está sentado frente a una pantalla, recorre a toda velocidad las calles de la capital arriba de su longboard.
+              </div>
+            </div>
+
+
+
+
+            <div id="collapseTwo" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Conocido como Tomi, suele trabajar con polera, bermuda y hawaianas, como si estuviera en la playa. Anda en bici para todos lados y ama la libertad.
+              </div>
+            </div>
+
+
+          <li>
+
+
+
+
+
+            <div class="ch-item ch-img-3">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-3"></div>
+                  <div class="ch-info-back">
+                    <h3>Sebastian Machuca</h3>
+                    <p>Developer Back-End                       
+                    <div class="links">
+                      <a href="http://drbl.in/eQva">Twitter</a>
+                      <a href="http://drbl.in/eFDk">linkedin</a>
+                    </div>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">              
+                        Ver más
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-4">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-4"></div>
+                  <div class="ch-info-back">
+                    <h3>Jaime Bustamante</h3>
+                    <p>Desarrollador Front-End                      
+                    <div class="links">
+                      <a href="http://drbl.in/eQva">Twitter</a>
+                      <a href="http://drbl.in/eFDk">linkedin</a>
+                    </div>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">              
+                        Ver más
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-5">
+              <div class="ch-info-wrap">
+                <div class="ch-info">
+                  <div class="ch-info-front ch-img-5"></div>
+                  <div class="ch-info-back">
+                    <h3>Adriano Doniez</h3>
+                    <p>Editor de Contenidos y Medios Sociales 
+                      <div class="links">
+                      <a href="http://drbl.in/eQva">Twitter</a>
+                      <a href="http://drbl.in/eFDk">linkedin</a>
+                    </div>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">              
+                        Ver más
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+            <div id="collapseThree" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Conocido como Seba, parece serio, pero en realidad se ríe más que los otros. Tiene pinta de gótico, pero escucha música indie en radios online.
+              </div>
+            </div>
+
+
+
+
+            <div id="collapseFour" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Conocido como Jimi, su otra pasión es la batería. Tiene una banda con la que ensaya y usa sus dedos como baquetas mientras está codeando.
+              </div>
+            </div>
+
+
+
+
+            <div id="collapseFive" class="accordion-body collapse">
+              <div class="accordion-inner">
+                Conocido como Doni, habla muchos idiomas e imita varios acentos. Le saca fotos a bicicletas de colores. Tiene un humor bastante especial.
+              </div>
+            </div>
+
+
+
+
+
+        </ul>
+      </div>
+      </div>
+    </div>
+    <div id="seccion_tres">
+      <div class="slide">
+        <h2 class="tit">Que Hacemos</h2>
+        <h3 class="tit">Que Hacemos</h3>
+      <div class="row-fluid">
+        <div class="uno">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active span6"><a href="#1" data-toggle="tab">APPS MÓVILES NATIVAS</a></li>
+              <li class="span6"><a href="#2" data-toggle="tab">SITIOS WEBS ADAPTABLES</a></li>
+            </ul>
+          <div class="clearfix"></div>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="1">
+                <div class="span12">
+                  <h2 class="tit_dos">APPS MÓVILES NATIVAS PARA ANDROID, iOS Y WINDOWS PHONE</h2>
+                  <h3>Diseñamos y desarrollamos aplicaciones de alta tecnología para las tres principales plataformas móviles.</h3>
+                  <div class="bg_smart bg"></div>
+                  <div class="smarth"></div>
+                </div>
+            </div>
+              <div class="tab-pane fade" id="2">
+                <div class="span12">
+                  <h2 class="tit_dos">SITIOS WEBS ADAPTABLES</h2>
+                  <h3>Diseñamos y desarrollamos sitios web de alta tecnología que se adaptan a todos los dispositivos, tanto móviles como de escritorio.</h3>
+                  
+                  <div class="bg_smart_dos bg"></div>
+                  <div class="smarth-dos"></div>
+                    <div class="clearfix"></div>
+                </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="seccion_cuatro">
+      <div class="slide">
+        <h2 class="tit">Como lo Hacemos</h2>
+        <h3 class="tit">Lorem ipsum dolor madafaca</h3>
+      <div class="row-fluid">
+        <div class="uno">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active span4"><a href="#3" data-toggle="tab">SOLUCIONES DE NEGOCIOS</a></li>
+              <li class="span4"><a href="#4" data-toggle="tab">DESARROLLO DE PRODUCTOS</a></li>
+              <li class="span4"><a href="#5" data-toggle="tab">DISEÑO Y EXPERIENCIA DE USUARIO</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active container" id="3">
+                 <div class="como">
+                  <h2 class="tit_dos">SOLUCIONES DE NEGOCIOS</h2>
+                  <h3>Si su negocio tiene un problema, nosotros le damos una solución.</h3>
+                  <div>
+                    <div class="span6">
+                      <div class="item uno"><a href="">ESTRATEGIA DIGITAL</a></div>
+                      <h2>ESTRATEGIA DIGITAL</h2>
+                      <p>Le armamos una estrategia para que su empresa se pueda mover de mejor forma en el espacio digital.</p>
+                    </div> 
+                    <div class="span6">
+                      <div class="item uno"><a href="">DESARROLLO DE PRODUCTOS</a></div>
+                      <h2>DESARROLLO DE PRODUCTOS</h2>
+                      <p>Le desarrollamos los productos para que su empresa pueda desarrollar su negocio.</p>
+                    </div> 
+                  </div> 
+                </div> 
+              </div>
+              <div class="tab-pane fade container" id="4">
+                <div class="como">
+                  <h2 class="tit_dos">Software development services</h2>
+                  <h3>To get great results you need to use great technology. Writing software for browsers, smartphones or servers is what we do best. We're agile, we move fast and produce quality code.</h3>
+
+                  <div>
+                    <div class="span4">
+                      <div class="item uno"><a href="">iOS development</a></div>
+                      <h2>iOS development</h2>
+                      <p>Since 2007 the iPhone changed the face of the mobile industry. The iPad did the same in 2010. We build software for the most dynamic smartphone and tablet platform available today.</p>
+                    </div> 
+
+                    <div class="span4">
+                      <div class="item uno"><a href="">Android development</a></div>
+                      <h2>Android development</h2>
+                      <p>During the third quarter of 2012 Android had 500 million devices activated in total and 1.3 million activations per day. If you need Android applications for mobile or tablet - we can build them.</p>
+                    </div> 
+
+                    <div class="span4">
+                      <div class="item uno"><a href="">Ruby on Rails development</a></div>
+                      <h2>Ruby on Rails development</h2>
+                      <p>We know the ins and outs of Rails since we've been working with it for more than 6 years. The elegant design and opinionated nature of Rails made it our preferred weapon of choice for server side development.</p>
+                    </div> 
+                  </div> 
+                  <div>
+                    <div class="span4">
+                      <div class="item uno"><a href="">Javascript development</a></div>
+                      <h2>Javascript development</h2>
+                      <p>With the rise of HTML5 related technologies, Javascript has become one of the most important programming languages today. We work with jQuery, Zepto, Backbone.js, Sencha Touch, Node.js and a variety of other Javascript technologies.</p>
+                    </div> 
+
+                    <div class="span4">
+                      <div class="item uno"><a href="">Windows Phone development</a></div>
+                      <h2>Windows Phone development</h2>
+                      <p>Windows Phone 8 is an up-and-coming platform from Microsoft that is proving itself to be a potential competitor in the native mobile app development space.</p>
+                    </div> 
+
+                    <div class="span4">
+                      <div class="item uno"><a href="">Quality Assurance</a></div>
+                      <h2>Quality Assurance</h2>
+                      <p>We have a specialized in-house QA team that does the review and testing of all our software. The goal is not just to detect bugs, but also provide a feedback loop to the development team and achieve a higher level of quality.</p>
+                    </div> 
+                  </div> 
+                </div> 
+
+              </div>
+              <div class="tab-pane fade container" id="5">
+
+                <div class="como">
+                  <h2 class="tit_dos">Design and user experience</h2>
+                  <h3>Building quality software isn't all about programming and technology. Great software needs to look great, and needs to be dead simple to use. That's why we take design and user experience very seriously.</h3>
+
+                  <div>
+                    <div class="span6">
+                      <div class="item uno"><a href="">Wireframing</a></div>
+                      <h2>Wireframing</h2>
+                      <p>We create simple prototypes that can be transformed to efficient User experience journeys and beautiful designs.</p>
+                    </div> 
+
+                    <div class="span6">
+                      <div class="item uno"><a href="">User interface (UI) design</a></div>
+                      <h2>User interface (UI) design</h2>
+                      <p>The UI design is the first thing that brings someone to your app. We create beautiful, original and modern interfaces that will amaze and delight your users.</p>
+                    </div> 
+                  </div> 
+                  <div>
+                    <div class="span6">
+                      <div class="item uno"><a href="">User experience (UX)</a></div>
+                      <h2>User experience (UX)</h2>
+                      <p>To create software that people will actually use, you need to create software that's simple, easy to use and that people will like. We also adhere to the native look and feel of each platform we create for.</p>
+                    </div> 
+
+                    <div class="span6">
+                      <div class="item uno"><a href="">Responsive web design</a></div>
+                      <h2>Responsive web design</h2>
+                      <p>Responsive web design is a web-design approach where one site layout is crafted to provide an optimal experience on a wide range of devices like desktop computers, tablets and mobile phones.</p>
+                    </div> 
+                  </div> 
+                </div> 
+
+              </div>
+        </div>
+      </div>
+       </div>
+       </div>
+     </div>
+    <div id="seccion_seis">
+      <div class="slide">
+        <h2 class="tit">Déjanos tus datos:</h2>
+        <h3 class="tit">¿Te interesa trabajar con nosotros? A nosotros también nos interesa trabajar contigo. Por eso, déjanos tus datos:</h3>
+        <div id="map">
+          <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cl/?ie=UTF8&amp;ll=-33.437615,-70.634403&amp;spn=0.004552,0.004984&amp;t=h&amp;z=18&amp;output=embed"></iframe>
+        </div>
+
+
+
+        
+        <div class="container contenido">
+          <div cass="row-fluid">
+          <div cass="span12">
+          <div class="controls controls-row-fluid">
+            <input class="span6 pull-left" type="text" placeholder="Nombre">
+            <input class="span6 pull-right" type="text" placeholder="Email">
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <textarea class="span12" rows="4" placeholder="Mensaje"></textarea>
+            </div>
+          </div>
+            
+          <div class="btn-centro">
+            <button class="btn btn-large btn-block btn-primary" type="button">Enviar</button>
+          </div>
+          </div>
+          </div>
+
+
+          <div class="direccion">
+            Av. camino el diablo #666, Puente Asalto<br>
+            +59977967946 / +59977967946
+          </div>
+          <div class="redes">
+            <ul>
+              <div class="span2">
+                <li class="github">
+                  <a href="/" target="_blank">1</a>
+                </li>
+              </div>
+              
+              <div class="span2">
+                <li class="facebook">
+                  <a href="http://www.facebook.com/Insaciableslabs" target="_blank">2</a>
+                </li>
+              </div>
+              
+              <div class="span2">
+                <li class="twitter">
+                  <a href="https://twitter.com/InsaciablesLabs" target="_blank">3</a>
+                </li>
+              </div>
+              
+              <div class="span2">
+                <li class="instagram">
+                  <a href="/" target="_blank">4</a>
+                </li>
+              </div>
+              
+              <div class="span2">
+                <li class="tumblr">
+                  <a href="/" target="_blank">5</a>
+                </li>
+              </div>
+
+              <div class="span2">
+                <li class="pinterest">
+                  <a href="/" target="_blank">6</a>
+                </li>
+              </div>
+            </ul>
+          </div>
+
+
+        </div>
+        <footer>© Insaciables Labs</footer>
+      </div>
+    </div>
+<script type="text/javascript">
+            $(function() {
+        
+        $('#circle').circlemouse({
+          onMouseEnter  : function( el ) {
+          
+            el.addClass('ec-circle-hover');
+          
+          },
+          onMouseLeave  : function( el ) {
+            
+            el.removeClass('ec-circle-hover');
+            
+          },
+          onClick     : function( el ) {
+            
+            alert('clicked');
+            
+          }
+        });
+        
+      });
+</script>
+
+</body>
+</html>
