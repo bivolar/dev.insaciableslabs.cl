@@ -66,10 +66,19 @@ $(document).ready(function(){
         easing: 'easeInOutExpo'
       });
       
-      console.log(deck.controller);
-      deck.controller.animate('#instructions',{ duration: 100, property:'opacity', end: 0 });
       
     });
+    // Efecto para hacer aparecer MenuPrincipal
+    $(window).scroll(function(e){    
+      offsetY = $(window).scrollTop();
+      if(offsetY >= $('#seccion_uno').height()){
+        $('.menu_principal').show()
+      }
+      if(offsetY < $('#seccion_uno').height()){
+        $('.menu_principal').hide()
+      }
+    })
+
   </script>
 </head>
 <body data-spy="scroll" data-target=".navbar">
