@@ -71,11 +71,11 @@ $(document).ready(function(){
     // Efecto para hacer aparecer MenuPrincipal
     $(window).scroll(function(e){    
       offsetY = $(window).scrollTop();
-      if(offsetY >= $('#seccion_uno').height()){
-        $('.menu_principal').fadeIn(1000)
+      if(offsetY >= $('#seccion_uno').height() - $('.menu_principal').height() ){
+        $('.menu_principal').fadeIn(500)
       }
-      if(offsetY < $('#seccion_uno').height()){
-        $('.menu_principal').fadeOut(1000)
+      if(offsetY < $('#seccion_uno').height() - $('.menu_principal').height() ){
+        $('.menu_principal').fadeOut(500)
       }
     })
 
@@ -97,10 +97,10 @@ $(document).ready(function(){
               <ul class="nav pull-left">
                 <li><a href="#seccion_uno" class="nav-button">Bienvenido</a></li>
                 <li><a href="#seccion_dos" class="nav-button">Nuestro Team</a></li>
-                <li><a href="#seccion_tres" class="nav-button">Que hacemos</a></li>
+                <li><a href="#seccion_tres" class="nav-button">Qué hacemos</a></li>
               </ul>      
               <ul class="nav pull-right">
-                <li><a href="#seccion_cuatro" class="nav-button">Como lo Hacemos</a></li>
+                <li><a href="#seccion_cuatro" class="nav-button">Cómo lo Hacemos</a></li>
               <li><a href="#seccion_seis" class="nav-button">Contacto</a></li>
               </ul>
             </div>
@@ -327,8 +327,8 @@ $(document).ready(function(){
     </div>
     <div id="seccion_tres">
       <div class="slide">
-        <h2 class="tit">Que Hacemos</h2>
-        <h3 class="tit">Que Hacemos</h3>
+        <h2 class="tit">Qué Hacemos</h2>
+        <h3 class="tit">Qué Hacemos</h3>
       <div class="row-fluid">
         <div class="uno">
             <ul id="myTab" class="nav nav-tabs">
@@ -363,7 +363,7 @@ $(document).ready(function(){
     <div class="clearfix"></div>
     <div id="seccion_cuatro">
       <div class="slide">
-        <h2 class="tit">Como lo Hacemos</h2>
+        <h2 class="tit">Cómo lo Hacemos</h2>
         <h3 class="tit">Lorem ipsum dolor madafaca</h3>
       <div class="row-fluid">
         <div class="uno">
