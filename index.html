@@ -39,19 +39,6 @@
 <script type="text/javascript">
 $(document).ready(function(){
   
-    $(window).scroll(function(e){
-      offsetY = $(window).scrollTop()
-      if(offsetY >= ($('#seccion_uno').height() - $('.menu_principal').height()) ){
-        $('.menu_principal').animate({
-          opacity: 1
-        }, 1000)
-      }else{
-        $('.menu_principal').animate({
-          opacity: 0
-        }, 1000)
-      }
-    })
-    
   RepositionNav();
   
   $(window).resize(function(){
@@ -82,17 +69,15 @@ $(document).ready(function(){
       
     });
     // Efecto para hacer aparecer MenuPrincipal
-    // $(window).scroll(function(e){    
-    //   offsetY = $(window).scrollTop();
-    //   if(offsetY >= $('#seccion_uno').height()){
-    //     $('.menu_principal').show()
-    //   }
-    //   if(offsetY < $('#seccion_uno').height()){
-    //     $('.menu_principal').hide()
-    //   }
-    // })
-
-
+    $(window).scroll(function(e){    
+      offsetY = $(window).scrollTop();
+      if(offsetY >= $('#seccion_uno').height()){
+        $('.menu_principal').fadeIn(1000)
+      }
+      if(offsetY < $('#seccion_uno').height()){
+        $('.menu_principal').fadeOut(1000)
+      }
+    })
 
   </script>
 </head>
