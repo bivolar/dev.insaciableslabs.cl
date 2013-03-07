@@ -1580,7 +1580,8 @@ background-position: center top;
 #seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
 
 .menu_principal{
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .menu_principal.navbar .nav > li > a:hover {
