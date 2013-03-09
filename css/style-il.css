@@ -329,28 +329,33 @@ height: 12px;
 }
 
 #seccion_dos .ch-img-1 h3 { 
-padding: 40px 0 0 0; 
+padding: 40px 0 10px 0;
+border-bottom: 2px solid #444; 
 }
 #seccion_dos .ch-img-2 h3 { 
-padding: 40px 0 0 0; 
+padding: 40px 0 10px 0;
+border-bottom: 2px solid #444; 
 }
 #seccion_dos .ch-img-3 h3 { 
-padding: 50px 0 0 0; 
+padding: 50px 0 10px 0;
+border-bottom: 2px solid #444; 
 }
 #seccion_dos .ch-img-4 h3 { 
-padding: 50px 0 0 0; 
+padding: 50px 0 10px 0;
+border-bottom: 2px solid #444; 
 }
 #seccion_dos .ch-img-5 h3 { 
-padding: 50px 0 0 0; 
+padding: 40px 0 10px 0;
+border-bottom: 2px solid #444; 
 }
 
 #seccion_dos .ch-info p {
-letter-spacing: 1px;
+letter-spacing: 0px;
 font-weight: 400;
 color: #fff;
-padding: 10px 5px;
+padding: 10px 0px;
 font-style: italic;
-margin: 0 10px;
+margin: 0;
 font-size: 13px;
 }
 
@@ -2326,5 +2331,22 @@ border-top: 1px solid #000;
 
 footer { margin-top: 20px; text-align: center; padding: 20px 0; }
 
+.links, .accordion-toggle {
+letter-spacing: -1px;
+font-size: 13px;
+font-family: '../fonts/TitilliumText25L600wt';
+src: url('../fonts/TitilliumText25L002-webfont.eot');
+src: url('../fonts/TitilliumText25L002-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/TitilliumText25L002-webfont.woff') format('woff'), url('../fonts/TitilliumText25L002-webfont.ttf') format('truetype'), url('../fonts/TitilliumText25L002-webfont.svg#TitilliumText25L600wt') format('svg');
+font-weight: bold;
+font-style: normal;
+}
 
 
+
+.menu_principal { 
+font-family: '../fonts/TitilliumText25L600wt';
+src: url('../fonts/TitilliumText25L002-webfont.eot');
+src: url('../fonts/TitilliumText25L002-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/TitilliumText25L002-webfont.woff') format('woff'), url('../fonts/TitilliumText25L002-webfont.ttf') format('truetype'), url('../fonts/TitilliumText25L002-webfont.svg#TitilliumText25L600wt') format('svg');
+font-weight: bold;
+font-style: normal;
+}
