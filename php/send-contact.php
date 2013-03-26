@@ -26,11 +26,11 @@ function mail_send($arr)
     return mail($to, '=?UTF-8?B?' . base64_encode($arr['subject']) . '?=', $arr['message'], implode("\n", $headers));
 }
 
-$to = "tomasbarrios@gmail.com";
+$to = "tomasbarrios@gmail.com,carlobaeza@gmail.com, jimibustamante@gmail.com,adoniez@gmail.com, sams91@gmail.com";
 $subject = "Contacto Pagina Web Insaciables";
 $nombre = $_POST['nombre'];
 $message = $_POST['mensaje'];
-$from = $_POST['email'];;
+$from = $_POST['email'];
 
 $mail = mail_send(array('to_email'=>$to, 'from_name'=>$nombre, 'from_email'=>$from,'subject'=>$subject,'message'=>$message));
 

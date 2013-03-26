@@ -63,7 +63,10 @@ $(function(){
         }
           })
       .fail(function(data) {
-        alert("Error al enviar el formulario");
+        AlertView.msg($(form), { 
+               alert: 'error', 
+               msg: 'Algo (no tan terrible) pasó, intenta nuevamente.' 
+          });
       })
       .always(function(data) {
         spinner.stop();
