@@ -1105,7 +1105,7 @@
 #seccion_uno { width: 100%; height: 100%; }
 #seccion_dos { width: 100%; height: 100%; }
 #seccion_tres { width: 100%; height: 100%; }
-#seccion_cuatro { width: 100%; height: 100%; }
+#seccion_cuatro { width: 100%; min-height: 100%; }
 #seccion_seis { width: 100%; height: 100%; }
 #seccion_uno .container-fluid, .row-fluid { height: 100%; }
 #seccion_dos .container-fluid, .row-fluid { height: 100%; }
@@ -1173,15 +1173,15 @@ line-height: 16px;
 #seccion_uno .llamado h2 {
 padding-bottom: 20px;
 text-align: center;
-font-size: 53px;
+font-size: 43px;
 margin: 92px auto 20px;
-line-height: 66px;
+line-height: 46px;
 font-weight: 100;
 border-bottom: 2px dotted #444;
 }
 
 #seccion_uno .llamado h3 {
-line-height: 34px;
+line-height: 23px;
 font-weight: 100;
 text-align: center;
 font-size: 18px;
@@ -1232,12 +1232,13 @@ height: 100%;
 border-radius: 12px;
 position: relative;
 cursor: default;
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
 }
+
 
 #seccion_dos .ch-info-wrap, 
 .ch-info{
@@ -1307,42 +1308,6 @@ transform: rotate(45deg);
 #seccion_dos .ch-info .ch-info-back {
   background: rgba(230,132,107,0);
 }
-#seccion_dos .ch-img-1 { 
-  background-image: url(../img/carlos_dos.jpg);
-  background-size: 320%;
-  z-index: 999;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-2 { 
-  background-image: url(../img/tomas_dos.jpg);
-  background-size: 320%;
-  z-index: 999;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-3 { 
-  background-image: url(../img/sebastian_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-4 { 
-  background-image: url(../img/jaime_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-5 { 
-  background-image: url(../img/adriano_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
 
 #seccion_dos .ch-info h3 {
 line-height: 14px;
@@ -1404,9 +1369,6 @@ font-size: 13px;
   -ms-transform: rotate3d(1,0,0,-180deg);
   transform: rotate3d(1,0,0,-180deg);
   
-  box-shadow: 
-    inset 0 0 5px rgba(255,255,255,0.2), 
-    inset 0 0 3px rgba(0,0,0,0.3);
 }
 
 #seccion_dos .ch-item:hover .ch-info-back {
@@ -1457,9 +1419,6 @@ margin-top: 100px;
 height: 330px;
 position: relative;
 z-index: 888888;
--webkit-background-size: 100%;
-background-size: 100%;
-background-image: url(../img/bg_uno.jpg);
 }
 
 #seccion_tres .smarth {
@@ -1472,7 +1431,7 @@ background-position: center top;
 position: relative;
 top: -460px;
 z-index: 999999;
-background-size: 1280px;
+background-size: 1100px;
 }
 
 #seccion_tres .bg_smart_dos {
@@ -1480,9 +1439,6 @@ margin-top: 100px;
 height: 330px;
 position: relative;
 z-index: 888888;
--webkit-background-size: 100%;
-background-size: 100%;
-background-image: url(../img/bg_dos.jpg);
 }
 
 #seccion_tres .smarth-dos {
@@ -1495,7 +1451,7 @@ background-position: center top;
 position: relative;
 top: -460px;
 z-index: 999999;
-background-size: 1280px;
+background-size: 1040px;
 }
 
 #seccion_cuatro .nav-tabs {

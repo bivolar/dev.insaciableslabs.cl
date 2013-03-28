@@ -434,9 +434,6 @@ margin-top: 100px;
 height: 330px;
 position: relative;
 z-index: 888888;
--webkit-background-size: 100%;
-background-size: 100%;
-background-image: url(../img/bg_uno.jpg);
 }
 
 #seccion_tres .smarth {
@@ -457,9 +454,6 @@ margin-top: 100px;
 height: 330px;
 position: relative;
 z-index: 888888;
--webkit-background-size: 100%;
-background-size: 100%;
-background-image: url(../img/bg_dos.jpg);
 }
 
 #seccion_tres .smarth-dos {
@@ -745,11 +739,11 @@ height: 100%;
 border-radius: 12px;
 position: relative;
 cursor: default;
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
 }
 
 #seccion_dos .ch-info-wrap, 
@@ -820,42 +814,6 @@ transform: rotate(45deg);
 #seccion_dos .ch-info .ch-info-back {
   background: rgba(230,132,107,0);
 }
-#seccion_dos .ch-img-1 { 
-  background-image: url(../img/carlos_dos.jpg);
-  background-size: 320%;
-  z-index: 998;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-2 { 
-  background-image: url(../img/tomas_dos.jpg);
-  background-size: 320%;
-  z-index: 998;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-3 { 
-  background-image: url(../img/sebastian_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-4 { 
-  background-image: url(../img/jaime_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-5 { 
-  background-image: url(../img/adriano_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
 
 #seccion_dos .ch-info h3 {
 line-height: 14px;
@@ -911,15 +869,7 @@ font-size: 13px;
 }
 
 #seccion_dos .ch-item:hover .ch-info-front {
-  -webkit-transform: rotate3d(1,0,0,-180deg);
-  -moz-transform: rotate3d(1,0,0,-180deg);
-  -o-transform: rotate3d(1,0,0,-180deg);
-  -ms-transform: rotate3d(1,0,0,-180deg);
-  transform: rotate3d(1,0,0,-180deg);
-  
-  box-shadow: 
-    inset 0 0 5px rgba(255,255,255,0.2), 
-    inset 0 0 3px rgba(0,0,0,0.3);
+display: none;
 }
 
 #seccion_dos .ch-item:hover .ch-info-back {
@@ -958,10 +908,8 @@ font-size: 13px;
   width: 220px;
   height: 220px;
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
 }
-
-#seccion_dos .ch-grid li { margin-right: 67px; }
 
 #seccion_tres .nav-tabs { margin-top: 87px; border-bottom: 1px solid transparent; background-color: #000; }
 
@@ -970,9 +918,6 @@ margin-top: 100px;
 height: 330px;
 position: relative;
 z-index: 888888;
--webkit-background-size: 100%;
-background-size: 100%;
-background-image: url(../img/bg_uno.jpg);
 }
 
 #seccion_tres .smarth {
@@ -993,9 +938,6 @@ margin-top: 100px;
 height: 330px;
 position: relative;
 z-index: 888888;
--webkit-background-size: 100%;
-background-size: 100%;
-background-image: url(../img/bg_dos.jpg);
 }
 
 #seccion_tres .smarth-dos {
@@ -1008,7 +950,7 @@ background-position: center top;
 position: relative;
 top: -460px;
 z-index: 998998;
-background-size: 1280px;
+background-size: 960px;
 }
 
 #seccion_cuatro .nav-tabs {
@@ -1113,6 +1055,15 @@ text-shadow: 1px 1px 3px #000;
 -moz-border-radius: 0; 
 border-radius: 0;
 }
+
+
+#seccion_cuatro .nav.nav-tabs li a { font-size: 13px; }
+
+
+
+
+
+
 
 
 }
@@ -1276,11 +1227,11 @@ height: 100%;
 border-radius: 12px;
 position: relative;
 cursor: default;
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
 }
 
 #seccion_dos .ch-info-wrap, 
@@ -1351,42 +1302,6 @@ transform: rotate(45deg);
 #seccion_dos .ch-info .ch-info-back {
   background: rgba(230,132,107,0);
 }
-#seccion_dos .ch-img-1 { 
-  background-image: url(../img/carlos_dos.jpg);
-  background-size: 320%;
-  z-index: 998;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-2 { 
-  background-image: url(../img/tomas_dos.jpg);
-  background-size: 320%;
-  z-index: 998;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-3 { 
-  background-image: url(../img/sebastian_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-4 { 
-  background-image: url(../img/jaime_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-5 { 
-  background-image: url(../img/adriano_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
 
 #seccion_dos .ch-info h3 {
 line-height: 14px;
@@ -1677,7 +1592,7 @@ border-radius: 0;
 @media (max-width: 480px) { 
 .container-fluid { height: 100%; }
 
-#seccion_uno { width: 100%; height: 100%; }
+#seccion_uno { width: 100%; /*height: 100%;*/ height: 160%; }
 #seccion_dos { width: 100%; height: 1300px; }
 #seccion_tres { width: 100%; height: 636px; }
 #seccion_cuatro { width: 100%; height: auto; }
@@ -1795,11 +1710,11 @@ height: 100%;
 border-radius: 12px;
 position: relative;
 cursor: default;
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-transform: rotate(45deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
 }
 
 #seccion_dos .ch-info-wrap, 
@@ -1870,42 +1785,6 @@ transform: rotate(45deg);
 #seccion_dos .ch-info .ch-info-back {
   background: rgba(230,132,107,0);
 }
-#seccion_dos .ch-img-1 { 
-  background-image: url(../img/carlos_dos.jpg);
-  background-size: 320%;
-  z-index: 998;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-1 { background-image: url(../img/carlos.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-2 { 
-  background-image: url(../img/tomas_dos.jpg);
-  background-size: 320%;
-  z-index: 998;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-2 { background-image: url(../img/tomas.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-3 { 
-  background-image: url(../img/sebastian_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-3 { background-image: url(../img/sebastian.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-4 { 
-  background-image: url(../img/jaime_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-4 { background-image: url(../img/jaime.jpg); background-position: 0 0; background-size: 100%; }
-
-#seccion_dos .ch-img-5 { 
-  background-image: url(../img/adriano_dos.jpg);
-  background-size: 320%;
-}
-
-#seccion_dos .ch-info .ch-info-front.ch-img-5 { background-image: url(../img/adriano.jpg); background-position: 0 0; background-size: 100%; }
 
 #seccion_dos .ch-info h3 {
 line-height: 14px;
@@ -2035,7 +1914,7 @@ background-position: center top;
 position: relative;
 top: -460px;
 z-index: 998998;
-background-size: 1017px;
+background-size: 700px;
 }
 
 #seccion_tres .bg_smart_dos {
@@ -2058,7 +1937,7 @@ background-position: center top;
 position: relative;
 top: -460px;
 z-index: 998998;
-background-size: 520px;
+background-size: 390px;
 }
 
 #seccion_tres .tab-content {
@@ -2097,6 +1976,8 @@ line-height: 48px;
 display: block;
 }
 */
+
+#seccion_seis .contenido { padding: 10px; }
 
 #seccion_seis ul { margin: 0; }
 
@@ -2358,3 +2239,11 @@ src: url('../fonts/TitilliumText25L002-webfont.eot?#iefix') format('embedded-ope
 font-weight: bold;
 font-style: normal;
 }
+
+
+.nav-tabs > li > a, .nav-pills > li > a { margin-right: 0; }
+
+
+
+
+
