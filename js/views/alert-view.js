@@ -1,8 +1,3 @@
-// <div class="alert alert-block alert-error fade">
-//                   <button type="button" class="close" data-dismiss="alert">×</button>
-//                   <h4 class="alert-heading"></h4>
-//                   <p></p>
-//                 </div>
 var AlertView = Backbone.View.extend({
 	className: 'alert fade in',
 	alerts: ['success', 'error', 'info'],
