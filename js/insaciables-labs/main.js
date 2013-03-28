@@ -32,6 +32,8 @@ $(document).ready(function(){
 });
 
 
+//Validacion Form
+
 $(function(){
   $('form#contact').validate({
 
@@ -51,22 +53,22 @@ $(function(){
       .done(function(data) {
         if($.parseJSON(data).success === 'true') {
           AlertView.msg($(form), { 
-               alert: 'success', 
-               msg: 'Tu mensaje va viajando a nuestros laboratorios en este segundo. Gracias!' 
-          });
+           alert: 'success', 
+           msg: 'Tu mensaje va viajando a nuestros laboratorios en este segundo. Gracias!' 
+         });
           $(form).find("input[type='text'], textarea").val(''); //Limpiar form
         } else {
           AlertView.msg($(form), { 
-               alert: 'error', 
-               msg: 'Algo (no tan terrible) pasó, intenta nuevamente.' 
-          });
+           alert: 'error', 
+           msg: 'Algo (no tan terrible) pasó, intenta nuevamente.' 
+         });
         }
-          })
+      })
       .fail(function(data) {
         AlertView.msg($(form), { 
-               alert: 'error', 
-               msg: 'Algo (no tan terrible) pasó, intenta nuevamente.' 
-          });
+         alert: 'error', 
+         msg: 'Algo (no tan terrible) pasó, intenta nuevamente.' 
+       });
       })
       .always(function(data) {
         spinner.stop();
@@ -87,4 +89,19 @@ $(function(){
       }
     }
   });
+
+  // Biografias
+  
+  $('.bio-link').click(function(){
+    var texto = $(this).attr('data-bio');
+    if (texto !== $('#bio-detail .accordion-inner').text() ) {
+      $('#bio-detail').collapse('hide');
+      $('#bio-detail').on('hidden', function(){
+        $(this).collapse('show');
       });
+    }
+    $('#bio-detail .accordion-inner').text( texto );
+    
+  });
+
+});
