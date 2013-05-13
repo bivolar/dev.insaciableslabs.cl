@@ -32,7 +32,7 @@ $(document).ready(function(){
 });
 
 
-//Validacion Form
+//Validacion Form 
 
 $(function(){
   $('form#contact').validate({
@@ -94,13 +94,26 @@ $(function(){
   
   $('.bio-link').click(function(){
     var texto = $(this).attr('data-bio');
-    if (texto !== $('#bio-detail .accordion-inner').text() ) {
-      $('#bio-detail').collapse('hide');
-      $('#bio-detail').on('hidden', function(){
+    var texto_actual = $('#bio-detail .accordion-inner').text()
+    
+    $('#bio-detail').on('show', function(){
+      $('#bio-detail .accordion-inner').text( texto );
+    });
+    
+    if (texto === texto_actual) { 
+      console.log('!!!');
+
+      $('#bio-detail').collapse('toggle');  
+    } else {
+
+      $('#bio-detail').collapse('hide').on('hidden', function() {
+        
         $(this).collapse('show');
+
       });
     }
-    $('#bio-detail .accordion-inner').text( texto );
+    
+    
     
   });
 
