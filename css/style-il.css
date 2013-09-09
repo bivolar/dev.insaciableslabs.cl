@@ -548,7 +548,7 @@ background-repeat: no-repeat;
 background-position: center top;
 }
 
-#seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
+
 
 html, body { background: black; }
 
@@ -1033,8 +1033,6 @@ background-image: url(../img/pinterest-64.png);
 background-repeat: no-repeat;
 background-position: center top;
 }
-
-#seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
 
 html, body { background: red; }
 
@@ -1536,7 +1534,7 @@ background-repeat: no-repeat;
 background-position: center top;
 }
 
-#seccion_seis #map { margin-bottom: 60px; height: 200px; padding-top: 87px; }
+
 
 html, body { background: green; }
 
@@ -2029,8 +2027,8 @@ background-repeat: no-repeat;
 background-position: center top;
 }
 
-#seccion_seis #map { margin-bottom: 20px; height: 190px; padding-top: 87px; }
-#seccion_seis #map iframe { height: 200px; }
+
+
 
 html, body { background: blue; }
 
